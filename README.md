@@ -6,7 +6,7 @@ A responsive, single-page landing site built for **Cake Otaku**, a Japanese-owne
 
 ## Live Demo
 
-<!-- Add live demo URL here -->
+[View Site](https://Jun-tatsuki.github.io/cake-otaku/)
 
 ---
 
