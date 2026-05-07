@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv /Users/tatsuki/Desktop/cakeOtaku/cake-otaku/images /Users/tatsuki/Desktop/cakeOtaku/cake-otaku/public/images)",
+      "Bash(npm run *)"
+    ],
+    "additionalDirectories": [
+      "/Users/tatsuki/Desktop/cakeOtaku/cake-otaku/images"
+    ]
+  }
+}
