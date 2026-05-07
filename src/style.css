@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Load the bundled font for devices that do not have Copperplate installed (e.g., some Apple devices) */
+@font-face {
+  font-family: "CopperplateFallback";
+  src: url("/fonts/Copperplate.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary: #f8f4e6;
+  --color-cream: #e85d75;
+  --color-cocoa: #3b2f2f;
+  --font-copper:
+    "Copperplate", "Copperplate Gothic Light", "CopperplateFallback", serif;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: var(--font-copper);
+  }
+}
